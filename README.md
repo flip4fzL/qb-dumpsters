@@ -9,6 +9,7 @@ RPROGRESS Bars (Included due to the fact that I had a previous version before "L
 https://github.com/Mobius1/rprogress
 
 QB-TARGET
+
 https://github.com/BerkieBb/qb-target
 
 Add this to your qb-target/config.lua
