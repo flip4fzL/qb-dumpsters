@@ -10,8 +10,7 @@ QB-TARGET
 https://github.com/BerkieBb/qb-target
 
 Add this to your qb-target/config.lua
-```    
-["Dumpsters"] = {
+```  ["Dumpsters"] = {
         models = {
             "prop_snow_dumpster_01",
             "prop_dumpster_4a",
