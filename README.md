@@ -3,7 +3,6 @@ This is not my work this is just a re-work of the qb-dumpsters script made my Ph
 All I did was change out the progress bars for mobius rprogress bars, add the eye commands and clean up unnecessary coding and I'm sure it could be improved even more.
 
 You will need to download the following dependancies
-
 RPROGRESS Bars
 https://github.com/Mobius1/rprogress
 
