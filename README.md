@@ -10,6 +10,7 @@ QB-TARGET
 https://github.com/BerkieBb/qb-target
 
 Add this to your qb-target/config.lua
+```
     ["Dumpsters"] = {
         models = {
             "prop_snow_dumpster_01",
@@ -32,3 +33,4 @@ Add this to your qb-target/config.lua
         },
         distance = 4.0
     },
+```
