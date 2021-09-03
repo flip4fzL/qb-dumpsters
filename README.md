@@ -34,3 +34,4 @@ Add this to your qb-target/config.lua
         distance = 4.0
     },
 ```
+![image](https://user-images.githubusercontent.com/68507887/132040361-867a86c8-f22a-454f-85df-9cf19b5a7865.png)
