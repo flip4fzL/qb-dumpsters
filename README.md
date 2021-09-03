@@ -4,7 +4,7 @@ All I did was change out the progress bars for mobius rprogress bars, add the ey
 
 You will need to download the following dependancies
 
-RPROGRESS Bars
+RPROGRESS Bars (Included due to the fact that I had a previous version before "Linear" changes)
 https://github.com/Mobius1/rprogress
 
 QB-TARGET
