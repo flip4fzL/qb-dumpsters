@@ -2,9 +2,10 @@
 This is not my work this is just a re-work of the qb-dumpsters script made my PhantomDK. 
 All I did was change out the progress bars for mobius rprogress bars, add the eye commands and clean up unnecessary coding and I'm sure it could be improved even more.
 
-You will need to download the following dependancies
+You will need to download the following dependancies: Credits to Mobius and all involved on the QB-Target project
 
 RPROGRESS Bars (Included due to the fact that I had a previous version before "Linear" changes)
+
 https://github.com/Mobius1/rprogress
 
 QB-TARGET
