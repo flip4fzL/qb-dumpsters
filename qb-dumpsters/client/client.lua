@@ -13,11 +13,21 @@ end)
 
 RegisterNetEvent('qb-dumpster:client:eye')
 AddEventHandler('qb-dumpster:client:eye', function(data)
+    local dumpsterFound = false
     if canSearch then
-        QBCore.Functions.Notify('You begin to search the dumpster..', "success")
-        startSearching(searchTime, 'pixellife:giveDumpsterReward')
-        TriggerServerEvent('pixellife:startDumpsterTimer', data.entity)
-        table.insert(searched, data.entity)
+        for i = 1, #searched do 
+            if searched[i] == data.entity then 
+                dumpsterFound = true 
+            end 
+            if i == #searched and dumpsterFound then 
+                QBCore.Functions.Notify('This dumpster has already been searched..', "error") 
+            elseif i == #searched and not dumpsterFound then 
+                QBCore.Functions.Notify('You begin to search the dumpster..', "success") 
+                startSearching(searchTime, 'pixellife:giveDumpsterReward') 
+                TriggerServerEvent('pixellife:startDumpsterTimer', data.entity) 
+                table.insert(searched, data.entity) 
+            end 
+        end
     end
 end)
 
